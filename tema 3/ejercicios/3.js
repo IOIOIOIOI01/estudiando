@@ -9,14 +9,14 @@ function operacion1() {
   return new Promise((responce, reject) => {
     setTimeout(() => {
       responce("opcion 1");
-    });
-  }, 1000);
+    }, 1000);
+  });
 }
 function operacio2() {
   return new Promise((responce, reject) => {
     setTimeout(() => {
       responce("opcion 2");
-    });
+    }, 2000);
   });
 }
 function operacion3() {

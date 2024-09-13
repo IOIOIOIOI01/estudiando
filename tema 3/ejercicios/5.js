@@ -17,7 +17,7 @@ function operacio2() {
     setTimeout(() => {
       const fallo = Math.random() > 0.5;
       if (fallo) {
-        reject("Error", fallo);
+        reject("Error");
       } else {
         responce("opcion 2");
       }

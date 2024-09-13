@@ -28,8 +28,10 @@ function operacion3() {
   });
 }
 operacion1()
-  .then(operacio2())
-  .then(operacion3())
+  .then(() => operacio2())
+  .then(() => operacion3())
   .then(() => {
     console.log("todas las opciones funcionan correctamente");
   });
+//
+//
