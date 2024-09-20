@@ -3,6 +3,10 @@ import getPort from "get-port";
 
 const app = express();
 
+app.use((req, res, next) => {
+  console.log("time:", Date.now());
+});
+
 app.get("/", (req, res) => {
   res.send("hello world");
 });
