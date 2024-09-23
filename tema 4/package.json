@@ -12,5 +12,13 @@
   "devDependencies": {
     "express": "^4.21.0"
   },
+<<<<<<< HEAD
   "type": "module"
 }
+=======
+  "type": "module",
+  "dependencies": {
+    "get-port": "^7.1.0"
+  }
+}
+>>>>>>> 67aed2ee00c47ce67ed7ff9d18b3160ee04d13a8
